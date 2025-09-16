@@ -2,7 +2,7 @@ name: Octopus Deploy Create Release
 description: Creates a new release in Octopus Deploy
 author: https://github.com/hu-danielgo
 requirements:
-  - octo #Make sure the Octo CLI is in your path
+  - octopus #Make sure the Octopus CLI is in your path
 configuration:
   properties:
     octopus-api-key-env:
